@@ -5,8 +5,10 @@
         <h1>DualHousing Mannheim</h1>
   
         <button @click="openModal">Offer Your Flat</button>
-        <router-link to="/blackboard">Blackboard</router-link>
-        <router-link to="/housing">Dual Housing</router-link>
+        <nav>
+          <router-link to="/blackboard">Blackboard</router-link>
+          <router-link to="/housing">DualHousing</router-link>
+        </nav>
       </header>
   
       <div id="entries">
@@ -85,9 +87,9 @@
   
         entries: [
   
-          { id: 1, imageUrl: 'https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg', availability: '1.1.2023 - 1.4.2023', cost: 500, address: '123 Main St' },
+          { id: 1, imageUrl: 'https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg', availability: '01.01.2023 - 01.04.2023', cost: 500, address: '123 Main St' },
   
-          { id: 2, imageUrl: 'https://www.1stfloorkoeln.com/wp-content/uploads/2020/01/1st-Floor-Koeln-Apartments-Lindenthal_Header_UG.jpg', availability: '1.4.2023 - 1.8.2023', cost: 450, address: '456 Oak St' }
+          { id: 2, imageUrl: 'https://www.1stfloorkoeln.com/wp-content/uploads/2020/01/1st-Floor-Koeln-Apartments-Lindenthal_Header_UG.jpg', availability: '01.04.2023 - 01.08.2023', cost: 450, address: '456 Oak St' }
   
           // Add more entries as needed
   

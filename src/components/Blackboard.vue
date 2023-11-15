@@ -14,7 +14,7 @@
         </div>
   
         <div class="content">
-          <p>Welcome to the digital blackboard for our university. Here you'll find important announcements, updates, and course information.</p>
+          <p>Welcome to the digital blackboard for our university. Here you'll find important announcements, updates, events and other usefull information.</p>
         </div>
       </div>
     </div>
